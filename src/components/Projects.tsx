@@ -21,28 +21,28 @@ const Projects = () => {
     technologies: ["Next.js", "TypeScript", "Supabase", "AI/ML", "OCR", "NLP", "React", "Tailwind CSS", "Node.js"]
   },
   {
-    title: "OncoPrecision",
+    title: "OncoSafeRx Evidence Explorer",
     year: "2025",
-    url: "oncoprecision.netlify.app",
+    url: "oncosafedxplorer.com",
     icon: <Brain className="h-6 w-6 text-red-600" data-id="o13n2tf4t" data-path="src/components/Projects.tsx" />,
-    description: "A precision‑oncology web platform that lets clinicians upload anonymized tumor data and receive AI‑ranked treatment pathways in seconds.",
+    description: "AI-powered platform for oncology research and precision medicine, connecting cancer mutations with drug therapies and clinical evidence.",
     features: [
-    "Smart matching engine (AI): fine‑tuned transformer models cross‑reference NGS mutations against 8‑million‑row curated oncology knowledge base.",
-    "HIPAA‑ready architecture: React + TypeScript SPA, Supabase Postgres row‑level security, and Python inference functions deployed as serverless edge endpoints."],
+    "Evidence Mapping Engine: AI algorithms map cancer mutations to targeted therapies with confidence scores and clinical trial matches.",
+    "Knowledge Graph Integration: Connects genomic data with real-world evidence, drug interactions, and patient outcomes."],
 
-    technologies: ["React", "TypeScript", "Supabase", "Python", "Transformers", "PostgreSQL", "HIPAA", "Serverless"]
+    technologies: ["React", "Python", "AI/ML", "Knowledge Graphs", "GraphQL", "PostgreSQL", "NLP", "Biomedical APIs"]
   },
   {
-    title: "TennisCommunity",
+    title: "SiteBoss",
     year: "2024",
-    url: "tenniscommunity.org",
-    icon: <Target className="h-6 w-6 text-green-600" data-id="3egmzndj2" data-path="src/components/Projects.tsx" />,
-    description: "A social scheduling hub for amateur tennis players to find partners, issue match challenges, and track ladder rankings.",
+    url: "siteboss.com",
+    icon: <Code className="h-6 w-6 text-green-600" data-id="3egmzndj2" data-path="src/components/Projects.tsx" />,
+    description: "AI-powered website optimization platform that automatically improves conversion rates and user experience through intelligent testing and personalization.",
     features: [
-    "Features built: dynamic availability calendar, head‑to‑head ladder ELO, and mobile‑friendly match‑challenge workflow (Supabase Edge functions for validation).",
-    "Tech highlights: Next.js 14, ShadCN UI, Postgres row‑level permissions, and GitHub Actions release pipeline that ships to Vercel in under 4 minutes."],
+    "A/B Testing Automation: ML algorithms determine optimal experiences for different user segments in real-time.",
+    "Performance Optimization: AI-driven recommendations for site speed, accessibility, and SEO improvements."],
 
-    technologies: ["Next.js", "ShadCN UI", "Supabase", "PostgreSQL", "GitHub Actions", "Vercel", "ELO Rating"]
+    technologies: ["Next.js", "TypeScript", "AI/ML", "A/B Testing", "Analytics", "SEO", "Performance Monitoring", "Node.js"]
   }];
 
 

@@ -1,42 +1,42 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Brain, Code, Rocket, Users } from "lucide-react";
+import { Brain, Code, Rocket, Users, Wrench, Workflow } from "lucide-react";
 
 const Skills = () => {
   const skills = [
   {
-    icon: <Brain className="h-8 w-8 text-purple-600" data-id="fz95b5azd" data-path="src/components/Skills.tsx" />,
-    title: "Applied ML",
-    description: "Rapid prototyping with Hugging Face, Scikit‑learn, & Pinecone + robust MLOps through DVC & GitHub Actions.",
-    technologies: ["Hugging Face", "Scikit-learn", "Pinecone", "DVC", "GitHub Actions", "MLOps"]
+    icon: <Wrench className="h-8 w-8 text-purple-600" data-id="fz95b5azd" data-path="src/components/Skills.tsx" />,
+    title: "DevOps & Infrastructure",
+    description: "End-to-end infrastructure management with AWS, Docker, Kubernetes, and CI/CD pipelines optimized for reliability and scalability.",
+    technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Infrastructure as Code"]
   },
   {
-    icon: <Code className="h-8 w-8 text-blue-600" data-id="fv138g6j6" data-path="src/components/Skills.tsx" />,
-    title: "Full‑Stack Engineering",
-    description: "Modern TypeScript, React, and Tailwind UI paired with Supabase / Postgres and edge‑function backends.",
-    technologies: ["TypeScript", "React", "Tailwind CSS", "Supabase", "PostgreSQL", "Edge Functions"]
+    icon: <Workflow className="h-8 w-8 text-blue-600" data-id="fv138g6j6" data-path="src/components/Skills.tsx" />,
+    title: "Agile Leadership",
+    description: "15+ years of leading cross-functional teams with proven methodologies including SAFE, Scrum, Kanban, and Lean principles.",
+    technologies: ["SAFe", "Scrum", "Kanban", "Agile Methodologies", "Cross-functional Teams", "Sprint Planning", "Stakeholder Management"]
   },
   {
-    icon: <Rocket className="h-8 w-8 text-green-600" data-id="b4vnfr73g" data-path="src/components/Skills.tsx" />,
-    title: "Release Management",
-    description: "15‑year history of zero‑downtime releases (Sony PlayStation, Yahoo Ads, Active Network).",
-    technologies: ["CI/CD", "Docker", "AWS", "Serverless", "DevOps", "Monitoring"]
+    icon: <Brain className="h-8 w-8 text-green-600" data-id="b4vnfr73g" data-path="src/components/Skills.tsx" />,
+    title: "AI & Machine Learning",
+    description: "Advanced AI implementation with LLMs, NLP, computer vision, and production-ready MLOps practices.",
+    technologies: ["LLMs", "NLP", "Computer Vision", "TensorFlow", "PyTorch", "MLOps", "Hugging Face", "OpenAI APIs"]
   },
   {
-    icon: <Users className="h-8 w-8 text-orange-600" data-id="cq6uffoed" data-path="src/components/Skills.tsx" />,
-    title: "Community Building",
-    description: "Product thinking grounded in empathy—ship MVP fast, open feedback loops, iterate weekly.",
-    technologies: ["Product Management", "User Research", "Agile", "Lean Startup", "MVP", "Feedback Loops"]
+    icon: <Code className="h-8 w-8 text-orange-600" data-id="cq6uffoed" data-path="src/components/Skills.tsx" />,
+    title: "Full-Stack Development",
+    description: "Modern application architecture with TypeScript, React, Node.js, and cloud-native solutions.",
+    technologies: ["TypeScript", "React", "Node.js", "Next.js", "Python", "PostgreSQL", "MongoDB", "Cloud Architecture"]
   }];
 
 
   const coreStrengths = [
-  "Full‑stack TypeScript/React",
-  "Python ML pipelines",
-  "Supabase/PostgreSQL",
-  "Serverless edge functions",
-  "Release automation",
-  "Lean/Agile delivery"];
+  "DevOps & Cloud Infrastructure",
+  "Agile & SAFE Methodologies", 
+  "AI/ML Implementation",
+  "Full-Stack Development",
+  "Team Leadership",
+  "Cross-functional Collaboration"];
 
 
   return (
