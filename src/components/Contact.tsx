@@ -9,18 +9,18 @@ const Contact = () => {
         <div className="text-center mb-16" data-id="05ulx5ixk" data-path="src/components/Contact.tsx">
           <h2 className="text-4xl font-bold text-gray-900 mb-4" data-id="3zv1hsi79" data-path="src/components/Contact.tsx">Let's Connect</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto" data-id="r0zkf0og0" data-path="src/components/Contact.tsx">
-            Exploring new collaborations where AI can unlock tangible community value
+            Exploring opportunities in technical program management, AI development, and complex system integration
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto" data-id="tsknmgamu" data-path="src/components/Contact.tsx">
           <Card className="mb-8" data-id="o5flf39ib" data-path="src/components/Contact.tsx">
             <CardHeader data-id="o2pk9cqie" data-path="src/components/Contact.tsx">
-              <CardTitle className="text-2xl text-center" data-id="kiwzepdbx" data-path="src/components/Contact.tsx">Open to Collaboration</CardTitle>
+              <CardTitle className="text-2xl text-center" data-id="kiwzepdbx" data-path="src/components/Contact.tsx">Available for Opportunities</CardTitle>
             </CardHeader>
             <CardContent className="text-center" data-id="0kya9xghs" data-path="src/components/Contact.tsx">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed" data-id="plkbayw06" data-path="src/components/Contact.tsx">
-                I'm exploring new collaborations where AI can unlock tangible community value—particularly in <strong data-id="f2rrjxp90" data-path="src/components/Contact.tsx">healthtech</strong>, <strong data-id="0pyzxlat6" data-path="src/components/Contact.tsx">sportstech</strong>, or any <strong data-id="hake1eyi4" data-path="src/components/Contact.tsx">mission‑driven micro‑SAAS</strong>.
+                I'm open to opportunities in <strong data-id="f2rrjxp90" data-path="src/components/Contact.tsx">technical program management</strong>, <strong data-id="0pyzxlat6" data-path="src/components/Contact.tsx">AI development</strong>, or <strong data-id="hake1eyi4" data-path="src/components/Contact.tsx">complex system integration</strong> roles that leverage my expertise in regulated environments.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center" data-id="uvubqmyhx" data-path="src/components/Contact.tsx">
                 <Button size="lg" asChild className="bg-blue-600 hover:bg-blue-700" data-id="bsocju128" data-path="src/components/Contact.tsx">
@@ -32,7 +32,7 @@ const Contact = () => {
                 <Button size="lg" variant="outline" asChild data-id="cj9cs4auo" data-path="src/components/Contact.tsx">
                   <a href="https://linkedin.com/in/gautam-dogra" target="_blank" rel="noopener noreferrer" data-id="qch1f4h4u" data-path="src/components/Contact.tsx">
                     <MessageCircle className="mr-2 h-4 w-4" data-id="frwruf6mc" data-path="src/components/Contact.tsx" />
-                    Let's Chat
+                    Let's Connect
                   </a>
                 </Button>
               </div>

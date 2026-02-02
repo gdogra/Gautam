@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, Brain, Shield, Activity, ExternalLink } from "lucide-react";
+import { Calendar, Brain, Shield, Activity, ExternalLink, Workflow, Database, Globe } from "lucide-react";
 
 const AppsPage = () => {
   const apps = [
@@ -16,49 +16,77 @@ const AppsPage = () => {
         "Anomaly Detection",
         "Conversational Assistant"
       ],
-      technologies: ["Next.js", "TypeScript", "AI/ML", "Supabase", "OCR", "NLP"],
+      technologies: ["Next.js", "TypeScript", "AI/ML", "Supabase", "OCR", "NLP", "React", "Tailwind CSS", "Node.js"],
       url: "https://compliance-deadline-tracker.vercel.app",
       github: "https://github.com/gdogra/compliance-deadline-tracker"
     },
     {
-      title: "OncoSafeRx",
+      title: "OncoSafeRx - AI-Enabled Drug Safety Platform",
       icon: <Shield className="h-8 w-8 text-blue-600" />,
-      description: "AI-powered platform for oncology research and precision medicine, connecting cancer mutations with drug therapies and clinical evidence.",
+      description: "End-to-end AI-assisted clinical decision tool leveraging RAG, vector search, and automated medical data enrichment for oncology research and precision medicine.",
       features: [
-        "Evidence Mapping Engine",
-        "Knowledge Graph Integration",
-        "Treatment Pathway Analysis",
-        "Clinical Trial Matching"
-      ],
-      technologies: ["React", "Python", "AI/ML", "GraphQL", "NLP", "Biomedical APIs"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "SiteBoss",
-      icon: <Activity className="h-8 w-8 text-green-600" />,
-      description: "AI-powered website optimization platform that automatically improves conversion rates and user experience through intelligent testing and personalization.",
-      features: [
-        "A/B Testing Automation",
-        "Performance Optimization",
-        "Conversion Rate Intelligence",
-        "User Behavior Analytics"
-      ],
-      technologies: ["Next.js", "TypeScript", "AI/ML", "Analytics", "SEO", "Performance Monitoring"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "CalmIntake",
-      icon: <Brain className="h-8 w-8 text-orange-600" />,
-      description: "Mental health intake platform with AI-powered screening tools and personalized care pathway recommendations.",
-      features: [
-        "Automated Screening",
-        "Care Pathway Recommendations",
-        "Patient Journey Tracking",
+        "RAG Implementation",
+        "Vector Search",
+        "Automated Data Enrichment",
         "Clinical Decision Support"
       ],
-      technologies: ["React", "Node.js", "AI/ML", "HIPAA Compliance", "Secure Forms", "Telehealth APIs"],
+      technologies: ["AI/ML", "RAG", "Vector Search", "Python", "PostgreSQL", "NLP", "Biomedical APIs", "Cloud Deployment"],
+      url: "https://oncosafedxplorer.com",
+      github: "#"
+    },
+    {
+      title: "EPA Salesforce Integration Platform",
+      icon: <Workflow className="h-8 w-8 text-green-600" />,
+      description: "Salesforce integration platform for EPA's Office of Chemical Safety and Pollution Prevention, delivering pollutants and pesticides regulatory systems under fixed political deadlines.",
+      features: [
+        "Agile Center of Excellence",
+        "Proof-of-Concept Delivery",
+        "Delivery Predictability Improvements",
+        "Multi-team Coordination"
+      ],
+      technologies: ["Salesforce", "Integration Platforms", "Agile Methodologies", "Jira", "Confluence", "Cloud Platforms", "API Integration"],
+      url: "#",
+      github: "#"
+    },
+    {
+      title: "Dexcom Medical Device Platform",
+      icon: <Database className="h-8 w-8 text-orange-600" />,
+      description: "Medical device software platform for continuous glucose monitoring in FDA-regulated environment, including database validation and compliance with ISO 13485/14971.",
+      features: [
+        "Regulatory Compliance (FDA/ISO)",
+        "Database Validation",
+        "Cross-functional Team Coordination",
+        "Full SDLC Management"
+      ],
+      technologies: ["FDA 21 CFR Part 11", "ISO 13485/14971", "Backend Architecture", "Cloud Services", "Mobile Integration", "Database Systems"],
+      url: "#",
+      github: "#"
+    },
+    {
+      title: "PlayStation Global Platform Services",
+      icon: <Globe className="h-8 w-8 text-indigo-600" />,
+      description: "Global database platform supporting millions of concurrent PlayStation users with strict uptime requirements, reducing deployment cycles from days to hours.",
+      features: [
+        "Zero-Downtime Releases",
+        "High Availability Architecture",
+        "Performance Optimization",
+        "DevOps & CI/CD Pipelines"
+      ],
+      technologies: ["Backend Architecture", "Cloud Services", "Distributed Databases", "Microservices", "DevOps", "CI/CD", "Jenkins", "Git/GitHub"],
+      url: "#",
+      github: "#"
+    },
+    {
+      title: "U.S. Army Identity Management Platform",
+      icon: <Activity className="h-8 w-8 text-red-600" />,
+      description: "Identity management platform architecture and integration solutions for U.S. Army within SAFe framework, reducing requirement churn by 30%.",
+      features: [
+        "SAFe Framework Implementation",
+        "Requirements Management",
+        "Security & Cybersecurity Integration",
+        "Cross-functional Collaboration"
+      ],
+      technologies: ["SAFe", "Cybersecurity", "Identity Management", "Platform Architecture", "Integration Solutions", "Agile Methodologies"],
       url: "#",
       github: "#"
     }
@@ -70,10 +98,11 @@ const AppsPage = () => {
         {/* Hero Section */}
         <div className="text-center mb-16" data-id="apps-hero" data-path="src/pages/AppsPage.tsx">
           <h1 className="text-5xl font-bold text-gray-900 mb-6" data-id="apps-title" data-path="src/pages/AppsPage.tsx">
-            My <span className="text-purple-600">Applications</span>
+            Professional <span className="text-purple-600">Projects</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8" data-id="apps-description" data-path="src/pages/AppsPage.tsx">
-            A collection of innovative applications designed to solve complex problems across various domains using AI and modern technology.
+            A comprehensive collection of professional projects spanning 15+ years across regulated environments, 
+            demonstrating expertise in technical program management, AI development, and complex system integration.
           </p>
         </div>
 
@@ -140,11 +169,12 @@ const AppsPage = () => {
         {/* Additional Info */}
         <div className="mt-16 text-center" data-id="apps-footer" data-path="src/pages/AppsPage.tsx">
           <h2 className="text-2xl font-bold text-gray-900 mb-4" data-id="apps-footer-title" data-path="src/pages/AppsPage.tsx">
-            Continuous Innovation
+            Proven Track Record
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto" data-id="apps-footer-desc" data-path="src/pages/AppsPage.tsx">
-            Each application represents a solution to real-world challenges, combining cutting-edge technology with practical usability. 
-            I continuously iterate and improve these platforms to deliver maximum value to users.
+            Each project demonstrates measurable impact: 40% improvement at EPA, 30% at Army, 20% at Navy, 
+            and zero-downtime releases at Sony PlayStation. My expertise spans technical program management, 
+            AI development, and complex system integration across regulated environments.
           </p>
         </div>
       </div>

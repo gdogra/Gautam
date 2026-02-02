@@ -1,42 +1,49 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Brain, Code, Rocket, Users, Wrench, Workflow } from "lucide-react";
+import { Brain, Code, Wrench, Workflow, Shield, Database } from "lucide-react";
 
 const Skills = () => {
   const skills = [
   {
-    icon: <Wrench className="h-8 w-8 text-purple-600" data-id="fz95b5azd" data-path="src/components/Skills.tsx" />,
-    title: "DevOps & Infrastructure",
-    description: "End-to-end infrastructure management with AWS, Docker, Kubernetes, and CI/CD pipelines optimized for reliability and scalability.",
-    technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Infrastructure as Code"]
+    icon: <Workflow className="h-8 w-8 text-purple-600" data-id="fz95b5azd" data-path="src/components/Skills.tsx" />,
+    title: "Technical Program Management",
+    description: "15+ years of leading complex software development programs from initiation through commercialization in highly regulated environments.",
+    technologies: ["Technical Program Management", "SDLC", "Regulated Environment Leadership", "Change Control", "Design Controls", "Cross-Functional Team Coordination", "Software Roadmap Development", "Project Planning & Scheduling", "Risk Assessment & Mitigation"]
   },
   {
-    icon: <Workflow className="h-8 w-8 text-blue-600" data-id="fv138g6j6" data-path="src/components/Skills.tsx" />,
-    title: "Agile Leadership",
-    description: "15+ years of leading cross-functional teams with proven methodologies including SAFE, Scrum, Kanban, and Lean principles.",
-    technologies: ["SAFe", "Scrum", "Kanban", "Agile Methodologies", "Cross-functional Teams", "Sprint Planning", "Stakeholder Management"]
+    icon: <Wrench className="h-8 w-8 text-blue-600" data-id="fv138g6j6" data-path="src/components/Skills.tsx" />,
+    title: "Agile Leadership & Scrum Mastery",
+    description: "Expert in Agile methodologies (Scrum, SAFe) with certifications as Certified ScrumMaster (CSM) and Certified Scrum Product Owner (CSPO).",
+    technologies: ["Scrum", "SAFe", "Kanban", "Agile Methodologies", "Scrum Master Leadership", "Product Ownership", "Sprint Planning", "Backlog Refinement", "User Story Creation", "Ceremony Facilitation", "Continuous Improvement"]
   },
   {
-    icon: <Brain className="h-8 w-8 text-green-600" data-id="b4vnfr73g" data-path="src/components/Skills.tsx" />,
-    title: "AI & Machine Learning",
-    description: "Advanced AI implementation with LLMs, NLP, computer vision, and production-ready MLOps practices.",
-    technologies: ["LLMs", "NLP", "Computer Vision", "TensorFlow", "PyTorch", "MLOps", "Hugging Face", "OpenAI APIs"]
+    icon: <Shield className="h-8 w-8 text-green-600" data-id="b4vnfr73g" data-path="src/components/Skills.tsx" />,
+    title: "Regulatory Compliance & Quality",
+    description: "Proven expertise in FDA, ISO 13485/14971, DoD, and federal agency compliance with rigorous change control and design controls.",
+    technologies: ["FDA 21 CFR Part 11", "ISO 13485/14971", "Medical Device Design Controls", "DoD Compliance", "Federal Agency Standards", "Quality Assurance", "Validation & Verification", "Risk Management"]
   },
   {
-    icon: <Code className="h-8 w-8 text-orange-600" data-id="cq6uffoed" data-path="src/components/Skills.tsx" />,
-    title: "Full-Stack Development",
-    description: "Modern application architecture with TypeScript, React, Node.js, and cloud-native solutions.",
-    technologies: ["TypeScript", "React", "Node.js", "Next.js", "Python", "PostgreSQL", "MongoDB", "Cloud Architecture"]
-  }];
+    icon: <Database className="h-8 w-8 text-orange-600" data-id="cq6uffoed" data-path="src/components/Skills.tsx" />,
+    title: "DevOps & Technical Architecture",
+    description: "Full-stack development with backend architecture, cloud services (AWS/Azure), and CI/CD pipelines for reliable delivery.",
+    technologies: ["AWS", "Azure", "Backend Architecture", "Cloud Services", "CI/CD", "Jenkins", "Git/GitHub", "Database Validation", "Python", "SQL", "Linux/RHEL", "Microservices", "API Integration"]
+  },
+  {
+    icon: <Code className="h-8 w-8 text-indigo-600" data-id="cq6uffoed" data-path="src/components/Skills.tsx" />,
+    title: "AI & Full-Stack Development",
+    description: "Modern application architecture with AI implementation, TypeScript, React, and cloud-native solutions.",
+    technologies: ["TypeScript", "React", "Node.js", "Next.js", "AI/ML", "LLMs", "NLP", "RAG", "Vector Search", "Python", "PostgreSQL", "MongoDB", "Mobile Development"]
+  }
+  ];
 
 
   const coreStrengths = [
-  "DevOps & Cloud Infrastructure",
-  "Agile & SAFE Methodologies", 
+  "Technical Program Management",
+  "Agile Leadership (CSM/CSPO)",
+  "Regulatory Compliance (FDA/ISO)",
+  "DevOps & Cloud Architecture",
   "AI/ML Implementation",
-  "Full-Stack Development",
-  "Team Leadership",
-  "Cross-functional Collaboration"];
+  "Cross-functional Team Leadership"];
 
 
   return (

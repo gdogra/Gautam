@@ -21,28 +21,30 @@ const Projects = () => {
     technologies: ["Next.js", "TypeScript", "Supabase", "AI/ML", "OCR", "NLP", "React", "Tailwind CSS", "Node.js"]
   },
   {
-    title: "OncoSafeRx Evidence Explorer",
-    year: "2025",
+    title: "OncoSafeRx - AI-Enabled Drug Safety Platform",
+    year: "2023-Present",
     url: "oncosafedxplorer.com",
     icon: <Brain className="h-6 w-6 text-red-600" data-id="o13n2tf4t" data-path="src/components/Projects.tsx" />,
-    description: "AI-powered platform for oncology research and precision medicine, connecting cancer mutations with drug therapies and clinical evidence.",
+    description: "End-to-end AI-assisted clinical decision tool leveraging RAG, vector search, and automated medical data enrichment for oncology research and precision medicine.",
     features: [
-    "Evidence Mapping Engine: AI algorithms map cancer mutations to targeted therapies with confidence scores and clinical trial matches.",
-    "Knowledge Graph Integration: Connects genomic data with real-world evidence, drug interactions, and patient outcomes."],
+    "RAG Implementation: Retrieval-Augmented Generation for contextual medical information retrieval.",
+    "Vector Search: Advanced similarity search for matching patient profiles with treatment options.",
+    "Automated Data Enrichment: AI algorithms process and enrich medical datasets for enhanced decision support."],
 
-    technologies: ["React", "Python", "AI/ML", "Knowledge Graphs", "GraphQL", "PostgreSQL", "NLP", "Biomedical APIs"]
+    technologies: ["AI/ML", "RAG", "Vector Search", "Python", "PostgreSQL", "NLP", "Biomedical APIs", "Cloud Deployment"]
   },
   {
-    title: "SiteBoss",
-    year: "2024",
-    url: "siteboss.com",
-    icon: <Code className="h-6 w-6 text-green-600" data-id="3egmzndj2" data-path="src/components/Projects.tsx" />,
-    description: "AI-powered website optimization platform that automatically improves conversion rates and user experience through intelligent testing and personalization.",
+    title: "EPA Salesforce Integration Platform",
+    year: "2024-2025",
+    url: "datawiz.com",
+    icon: <Workflow className="h-6 w-6 text-blue-600" data-id="3egmzndj2" data-path="src/components/Projects.tsx" />,
+    description: "Salesforce integration platform for EPA's Office of Chemical Safety and Pollution Prevention, delivering pollutants and pesticides regulatory systems under fixed political deadlines.",
     features: [
-    "A/B Testing Automation: ML algorithms determine optimal experiences for different user segments in real-time.",
-    "Performance Optimization: AI-driven recommendations for site speed, accessibility, and SEO improvements."],
+    "Agile Center of Excellence: Established framework serving 200+ professionals with standardized delivery governance.",
+    "Proof-of-Concept Delivery: Delivered working solution in 4 sprints ahead of administration change.",
+    "Delivery Predictability: Improved predictability by 40% through data-informed enhancements and disciplined execution."],
 
-    technologies: ["Next.js", "TypeScript", "AI/ML", "A/B Testing", "Analytics", "SEO", "Performance Monitoring", "Node.js"]
+    technologies: ["Salesforce", "Integration Platforms", "Agile Methodologies", "Jira", "Confluence", "Cloud Platforms", "API Integration"]
   }];
 
 

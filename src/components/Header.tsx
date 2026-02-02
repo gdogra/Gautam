@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex justify-between items-center" data-id="txmrfihca" data-path="src/components/Header.tsx">
           <div className="flex items-center space-x-2" data-id="ccohklawr" data-path="src/components/Header.tsx">
             <h1 className="text-2xl font-bold text-gray-900" data-id="sa8muj29f" data-path="src/components/Header.tsx">Gautam Dogra</h1>
-            <span className="text-sm text-gray-500" data-id="iga20owrp" data-path="src/components/Header.tsx">AI Developer</span>
+            <span className="text-sm text-gray-500" data-id="iga20owrp" data-path="src/components/Header.tsx">Senior Technical Program Manager & AI Developer</span>
           </div>
           
           <nav className="hidden md:flex space-x-6" data-id="1trz7c2bd" data-path="src/components/Header.tsx">
