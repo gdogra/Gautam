@@ -6,6 +6,21 @@ import { ExternalLink, Brain, Calendar, Target } from "lucide-react";
 const Projects = () => {
   const projects = [
   {
+    title: "AI-Powered Compliance Tracker",
+    year: "2026",
+    url: "compliance-deadline-tracker.vercel.app",
+    icon: <Brain className="h-6 w-6 text-purple-600" data-id="o13n2tf4t" data-path="src/components/Projects.tsx" />,
+    description: "Revolutionary platform transforming how accounting firms manage tax deadlines with predictive intelligence and automated compliance.",
+    features: [
+    "Predictive Risk Scoring: AI algorithms analyze historical data and client patterns to predict which deadlines are most likely to be missed, allowing for proactive intervention.",
+    "Intelligent Document Processing: OCR and NLP technology automatically extract compliance-relevant information from tax documents, reducing manual data entry by up to 90%.",
+    "Smart Recommendations: Context-aware AI suggests optimal filing strategies, extensions, and compliance pathways based on client entity types and circumstances.",
+    "Anomaly Detection: Advanced algorithms identify unusual patterns in client compliance behavior that might indicate business changes requiring attention.",
+    "Conversational Assistant: Natural language interface for instant compliance guidance, penalty calculations, and filing requirement information."],
+
+    technologies: ["Next.js", "TypeScript", "Supabase", "AI/ML", "OCR", "NLP", "React", "Tailwind CSS", "Node.js"]
+  },
+  {
     title: "OncoPrecision",
     year: "2025",
     url: "oncoprecision.netlify.app",
@@ -28,18 +43,6 @@ const Projects = () => {
     "Tech highlights: Next.js 14, ShadCN UI, Postgres row‑level permissions, and GitHub Actions release pipeline that ships to Vercel in under 4 minutes."],
 
     technologies: ["Next.js", "ShadCN UI", "Supabase", "PostgreSQL", "GitHub Actions", "Vercel", "ELO Rating"]
-  },
-  {
-    title: "GolfGroups",
-    year: "2023",
-    url: "golfgroups.netlify.app",
-    icon: <Calendar className="h-6 w-6 text-blue-600" data-id="63cocppiv" data-path="src/components/Projects.tsx" />,
-    description: "A lightweight coordination app for local golf leagues—pairing tee‑time reservations with AI‑assisted handicap tracking.",
-    features: [
-    "Handicap predictor (AI): gradient‑boosted regression trained on 40 thousand historical rounds; predicts updated handicap immediately after score entry.",
-    "Serverless stack: React + Netlify Functions; PostgreSQL hosted on Supabase with scheduled nightly exports to BigQuery for advanced league analytics."],
-
-    technologies: ["React", "Netlify Functions", "Supabase", "PostgreSQL", "BigQuery", "Gradient Boosting", "Serverless"]
   }];
 
 
