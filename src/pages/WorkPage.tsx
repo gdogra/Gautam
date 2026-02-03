@@ -140,6 +140,63 @@ const WorkPage = () => {
               </div>
             </CardContent>
           </Card>
+          
+          <Card className="hover:shadow-xl transition-shadow duration-300" data-id="exp-card-6" data-path="src/pages/WorkPage.tsx">
+            <CardHeader>
+              <CardTitle className="text-xl" data-id="exp-card-title-6" data-path="src/pages/WorkPage.tsx">
+                Senior Release Engineer - ActiveNetwork (2009–2013)
+              </CardTitle>
+            </CardHeader>
+            <CardContent data-id="exp-card-content-6" data-path="src/pages/WorkPage.tsx">
+              <p className="text-gray-600 mb-4" data-id="exp-desc-6" data-path="src/pages/WorkPage.tsx">
+                Led release engineering processes and established deployment pipelines for ticketing and event management platforms.
+              </p>
+              <div className="flex flex-wrap gap-2" data-id="exp-tech-6" data-path="src/pages/WorkPage.tsx">
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-6-1" data-path="src/pages/WorkPage.tsx">Release Engineering</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-6-2" data-path="src/pages/WorkPage.tsx">Deployment Pipelines</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-6-3" data-path="src/pages/WorkPage.tsx">Ticketing Systems</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-6-4" data-path="src/pages/WorkPage.tsx">Event Management</Badge>
+              </div>
+            </CardContent>
+          </Card>
+          
+          <Card className="hover:shadow-xl transition-shadow duration-300" data-id="exp-card-7" data-path="src/pages/WorkPage.tsx">
+            <CardHeader>
+              <CardTitle className="text-xl" data-id="exp-card-title-7" data-path="src/pages/WorkPage.tsx">
+                Release Engineer - Yahoo Inc (2003–2008) - Project Panama
+              </CardTitle>
+            </CardHeader>
+            <CardContent data-id="exp-card-content-7" data-path="src/pages/WorkPage.tsx">
+              <p className="text-gray-600 mb-4" data-id="exp-desc-7" data-path="src/pages/WorkPage.tsx">
+                Specialized in release engineering for Project Panama, focusing on content management and publishing workflows.
+              </p>
+              <div className="flex flex-wrap gap-2" data-id="exp-tech-7" data-path="src/pages/WorkPage.tsx">
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-7-1" data-path="src/pages/WorkPage.tsx">Release Engineering</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-7-2" data-path="src/pages/WorkPage.tsx">Content Management</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-7-3" data-path="src/pages/WorkPage.tsx">Publishing Workflows</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-7-4" data-path="src/pages/WorkPage.tsx">Project Panama</Badge>
+              </div>
+            </CardContent>
+          </Card>
+          
+          <Card className="hover:shadow-xl transition-shadow duration-300" data-id="exp-card-8" data-path="src/pages/WorkPage.tsx">
+            <CardHeader>
+              <CardTitle className="text-xl" data-id="exp-card-title-8" data-path="src/pages/WorkPage.tsx">
+                Top Billable Consultant - TI/CA Government Solutions (1996–2003)
+              </CardTitle>
+            </CardHeader>
+            <CardContent data-id="exp-card-content-8" data-path="src/pages/WorkPage.tsx">
+              <p className="text-gray-600 mb-4" data-id="exp-desc-8" data-path="src/pages/WorkPage.tsx">
+                Three-time top billable consultant for Naval Warfare (Navwar) projects, advising developers on CA's CASE-tool implementations and government solution architectures.
+              </p>
+              <div className="flex flex-wrap gap-2" data-id="exp-tech-8" data-path="src/pages/WorkPage.tsx">
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-1" data-path="src/pages/WorkPage.tsx">Consulting</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-2" data-path="src/pages/WorkPage.tsx">CASE-tools</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-3" data-path="src/pages/WorkPage.tsx">Government Solutions</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-4" data-path="src/pages/WorkPage.tsx">Naval Warfare</Badge>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </div>
