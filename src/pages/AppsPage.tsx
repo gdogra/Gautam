@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, Brain, ExternalLink } from "lucide-react";
+import { Calendar, Brain, Shield, ExternalLink } from "lucide-react";
 
 const AppsPage = () => {
   const apps = [
@@ -32,63 +32,7 @@ const AppsPage = () => {
       ],
       technologies: ["AI/ML", "RAG", "Vector Search", "Python", "PostgreSQL", "NLP", "Biomedical APIs", "Cloud Deployment"],
       url: "https://oncosaferx.com",
-      github: "#"
-    },
-    {
-      title: "EPA Salesforce Integration Platform",
-      icon: <Building className="h-8 w-8 text-green-600" />,
-      description: "Salesforce integration platform for EPA's Office of Chemical Safety and Pollution Prevention, delivering pollutants and pesticides regulatory systems under fixed political deadlines.",
-      features: [
-        "Agile Center of Excellence",
-        "Proof-of-Concept Delivery",
-        "Delivery Predictability Improvements",
-        "Multi-team Coordination"
-      ],
-      technologies: ["Salesforce", "Integration Platforms", "Agile Methodologies", "Jira", "Confluence", "Cloud Platforms", "API Integration"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "Dexcom Medical Device Platform",
-      icon: <Database className="h-8 w-8 text-orange-600" />,
-      description: "Medical device software platform for continuous glucose monitoring in FDA-regulated environment, including database validation and compliance with ISO 13485/14971.",
-      features: [
-        "Regulatory Compliance (FDA/ISO)",
-        "Database Validation",
-        "Cross-functional Team Coordination",
-        "Full SDLC Management"
-      ],
-      technologies: ["FDA 21 CFR Part 11", "ISO 13485/14971", "Backend Architecture", "Cloud Services", "Mobile Integration", "Database Systems"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "PlayStation Global Platform Services",
-      icon: <Globe className="h-8 w-8 text-indigo-600" />,
-      description: "Global database platform supporting millions of concurrent PlayStation users with strict uptime requirements, reducing deployment cycles from days to hours.",
-      features: [
-        "Zero-Downtime Releases",
-        "High Availability Architecture",
-        "Performance Optimization",
-        "DevOps & CI/CD Pipelines"
-      ],
-      technologies: ["Backend Architecture", "Cloud Services", "Distributed Databases", "Microservices", "DevOps", "CI/CD", "Jenkins", "Git/GitHub"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "U.S. Army Identity Management Platform",
-      icon: <Activity className="h-8 w-8 text-red-600" />,
-      description: "Identity management platform architecture and integration solutions for U.S. Army within SAFe framework, reducing requirement churn by 30%.",
-      features: [
-        "SAFe Framework Implementation",
-        "Requirements Management",
-        "Security & Cybersecurity Integration",
-        "Cross-functional Collaboration"
-      ],
-      technologies: ["SAFe", "Cybersecurity", "Identity Management", "Platform Architecture", "Integration Solutions", "Agile Methodologies"],
-      url: "#",
-      github: "#"
+      github: "#"  // Placeholder since GitHub link isn't available yet
     }
   ];
 

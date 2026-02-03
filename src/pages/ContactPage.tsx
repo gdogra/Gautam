@@ -54,7 +54,7 @@ const ContactPage = () => {
                 </Button>
                 <Button size="lg" variant="outline" asChild data-id="contact-linkedin-btn" data-path="src/pages/ContactPage.tsx">
                   <a href="https://linkedin.com/in/gautam-dogra" target="_blank" rel="noopener noreferrer" data-id="contact-linkedin-link" data-path="src/pages/ContactPage.tsx">
-                    <MessageCircle className="mr-2 h-4 w-4" data-id="contact-message-icon" data-path="src/pages/ContactPage.tsx" />
+                    <Linkedin className="mr-2 h-4 w-4" data-id="contact-linkedin-icon" data-path="src/pages/ContactPage.tsx" />
                     Let's Connect
                   </a>
                 </Button>
