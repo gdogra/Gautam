@@ -115,60 +115,68 @@ const AppsPage = () => {
         {/* Projects Grid - All 5 projects */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-id="projects-grid" data-path="src/pages/AppsPage.tsx">
           {apps.map((app, index) => (
-            <Card key={index} className="hover:shadow-xl transition-shadow duration-300 h-full flex flex-col cursor-pointer" data-id={`project-card-${index}`} data-path="src/pages/AppsPage.tsx">
-              <CardHeader data-id={`project-header-${index}`} data-path="src/pages/AppsPage.tsx">
-                <div className="flex items-center gap-3" data-id={`project-header-content-${index}`} data-path="src/pages/AppsPage.tsx">
-                  <div className="p-2 bg-gray-100 rounded-lg" data-id={`project-icon-bg-${index}`} data-path="src/pages/AppsPage.tsx">
-                    {app.icon}
+            <a 
+              href={app.url} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              key={index} 
+              className="block"
+              data-id={`project-link-${index}`}
+              data-path="src/pages/AppsPage.tsx"
+            >
+              <Card className="hover:shadow-xl transition-shadow duration-300 h-full flex flex-col cursor-pointer" data-id={`project-card-${index}`} data-path="src/pages/AppsPage.tsx">
+                <CardHeader data-id={`project-header-${index}`} data-path="src/pages/AppsPage.tsx">
+                  <div className="flex items-center gap-3" data-id={`project-header-content-${index}`} data-path="src/pages/AppsPage.tsx">
+                    <div className="p-2 bg-gray-100 rounded-lg" data-id={`project-icon-bg-${index}`} data-path="src/pages/AppsPage.tsx">
+                      {app.icon}
+                    </div>
+                    <CardTitle className="text-xl" data-id={`project-title-${index}`} data-path="src/pages/AppsPage.tsx">
+                      {app.title}
+                    </CardTitle>
                   </div>
-                  <CardTitle className="text-xl" data-id={`project-title-${index}`} data-path="src/pages/AppsPage.tsx">
-                    {app.title}
-                  </CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="flex-grow" data-id={`project-content-${index}`} data-path="src/pages/AppsPage.tsx">
-                <p className="text-gray-600 mb-4" data-id={`project-desc-${index}`} data-path="src/pages/AppsPage.tsx">
-                  {app.description}
-                </p>
-                
-                <div className="mb-4" data-id={`project-features-${index}`} data-path="src/pages/AppsPage.tsx">
-                  <h3 className="font-semibold text-gray-800 mb-2" data-id={`features-title-${index}`} data-path="src/pages/AppsPage.tsx">Key Features:</h3>
-                  <ul className="space-y-1" data-id={`features-list-${index}`} data-path="src/pages/AppsPage.tsx">
-                    {app.features.slice(0, 3).map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start gap-2 text-sm text-gray-600" data-id={`feature-item-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx">
-                        <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id={`feature-dot-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx"></span>
-                        <span data-id={`feature-text-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                
-                <div className="mb-4" data-id={`project-tech-${index}`} data-path="src/pages/AppsPage.tsx">
-                  <h3 className="font-semibold text-gray-800 mb-2" data-id={`tech-title-${index}`} data-path="src/pages/AppsPage.tsx">Technologies:</h3>
-                  <div className="flex flex-wrap gap-2" data-id={`tech-tags-${index}`} data-path="src/pages/AppsPage.tsx">
-                    {app.technologies.slice(0, 4).map((tech, techIndex) => (
-                      <Badge key={techIndex} variant="outline" className="text-xs" data-id={`tech-badge-${index}-${techIndex}`} data-path="src/pages/AppsPage.tsx">
-                        {tech}
-                      </Badge>
-                    ))}
+                </CardHeader>
+                <CardContent className="flex-grow" data-id={`project-content-${index}`} data-path="src/pages/AppsPage.tsx">
+                  <p className="text-gray-600 mb-4" data-id={`project-desc-${index}`} data-path="src/pages/AppsPage.tsx">
+                    {app.description}
+                  </p>
+                  
+                  <div className="mb-4" data-id={`project-features-${index}`} data-path="src/pages/AppsPage.tsx">
+                    <h3 className="font-semibold text-gray-800 mb-2" data-id={`features-title-${index}`} data-path="src/pages/AppsPage.tsx">Key Features:</h3>
+                    <ul className="space-y-1" data-id={`features-list-${index}`} data-path="src/pages/AppsPage.tsx">
+                      {app.features.slice(0, 3).map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-start gap-2 text-sm text-gray-600" data-id={`feature-item-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx">
+                          <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id={`feature-dot-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx"></span>
+                          <span data-id={`feature-text-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                </div>
-                
-                <div className="flex gap-2" data-id={`project-actions-${index}`} data-path="src/pages/AppsPage.tsx">
-                  <a href={app.url} target="_blank" rel="noopener noreferrer" data-id={`project-url-${index}`} data-path="src/pages/AppsPage.tsx">
-                    <Button variant="outline" size="sm" disabled={app.url === "#"} data-id={`project-demo-btn-${index}`} data-path="src/pages/AppsPage.tsx">
+                  
+                  <div className="mb-4" data-id={`project-tech-${index}`} data-path="src/pages/AppsPage.tsx">
+                    <h3 className="font-semibold text-gray-800 mb-2" data-id={`tech-title-${index}`} data-path="src/pages/AppsPage.tsx">Technologies:</h3>
+                    <div className="flex flex-wrap gap-2" data-id={`tech-tags-${index}`} data-path="src/pages/AppsPage.tsx">
+                      {app.technologies.slice(0, 4).map((tech, techIndex) => (
+                        <Badge key={techIndex} variant="outline" className="text-xs" data-id={`tech-badge-${index}-${techIndex}`} data-path="src/pages/AppsPage.tsx">
+                          {tech}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="flex gap-2" data-id={`project-actions-${index}`} data-path="src/pages/AppsPage.tsx">
+                    <Button variant="outline" size="sm" data-id={`project-demo-btn-${index}`} data-path="src/pages/AppsPage.tsx">
                       Launch App
                       <ExternalLink className="ml-2 h-4 w-4" data-id={`demo-icon-${index}`} data-path="src/pages/AppsPage.tsx" />
                     </Button>
-                  </a>
-                  <a href={app.github} target="_blank" rel="noopener noreferrer" data-id={`project-github-${index}`} data-path="src/pages/AppsPage.tsx">
-                    <Button size="sm" disabled={app.github === "#"} data-id={`project-github-btn-${index}`} data-path="src/pages/AppsPage.tsx">
-                      GitHub
-                    </Button>
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
+                    <a href={app.github} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} data-id={`project-github-${index}`} data-path="src/pages/AppsPage.tsx">
+                      <Button size="sm" disabled={app.github === "#"} data-id={`project-github-btn-${index}`} data-path="src/pages/AppsPage.tsx">
+                        GitHub
+                      </Button>
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
 
