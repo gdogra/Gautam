@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080
   },
   build: {
-    outDir: "public", // Build to public directory for Netlify
+    outDir: "dist", // Build to dist directory for Netlify
     emptyOutDir: true // Clear the directory before building
   },
   plugins: [
