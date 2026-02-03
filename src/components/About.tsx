@@ -16,7 +16,7 @@ const About = () => {
             <CardContent className="p-8" data-id="about-card-content" data-path="src/components/About.tsx">
               <div className="prose prose-lg max-w-none" data-id="about-prose" data-path="src/components/About.tsx">
                 <p className="text-gray-700 mb-4 leading-relaxed" data-id="about-p1" data-path="src/components/About.tsx">
-                  I am a Senior Technical Program Manager and AI Developer with 15+ years of experience leading complex software development programs from initiation through commercialization in highly regulated environments. My expertise spans technical program management, agile methodologies, DevOps, and AI development across diverse industries including defense, healthcare, federal agencies, and enterprise software.
+                  I am a Senior Technical Program Manager and AI Developer with 15+ years of experience leading complex software development programs from initiation through commercialization in highly regulated environments. I hold an active DOD Secret clearance. My expertise spans technical program management, agile methodologies, DevOps, and AI development across diverse industries including defense, healthcare, federal agencies, and enterprise software.
                 </p>
                 
                 <p className="text-gray-700 mb-4 leading-relaxed" data-id="about-p2" data-path="src/components/About.tsx">
