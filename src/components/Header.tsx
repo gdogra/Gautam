@@ -46,7 +46,7 @@ const Header = () => {
               </a>
             </Button>
             <Button variant="ghost" size="sm" asChild data-id="tux7g1xb5" data-path="src/components/Header.tsx">
-              <a href="https://linkedin.com/in/gautam-dogra" target="_blank" rel="noopener noreferrer" data-id="rrsvua1tw" data-path="src/components/Header.tsx">
+              <a href="https://www.linkedin.com/in/gautamdogra/" target="_blank" rel="noopener noreferrer" data-id="rrsvua1tw" data-path="src/components/Header.tsx">
                 <Linkedin className="h-4 w-4" data-id="glrv9i89r" data-path="src/components/Header.tsx" />
               </a>
             </Button>

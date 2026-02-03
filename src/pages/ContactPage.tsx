@@ -53,7 +53,7 @@ const ContactPage = () => {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild data-id="contact-linkedin-btn" data-path="src/pages/ContactPage.tsx">
-                  <a href="https://linkedin.com/in/gautam-dogra" target="_blank" rel="noopener noreferrer" data-id="contact-linkedin-link" data-path="src/pages/ContactPage.tsx">
+                  <a href="https://www.linkedin.com/in/gautamdogra/" target="_blank" rel="noopener noreferrer" data-id="contact-linkedin-link" data-path="src/pages/ContactPage.tsx">
                     <Linkedin className="mr-2 h-4 w-4" data-id="contact-linkedin-icon" data-path="src/pages/ContactPage.tsx" />
                     Let's Connect
                   </a>
@@ -78,7 +78,7 @@ const ContactPage = () => {
                 <Linkedin className="h-8 w-8 text-blue-600 mx-auto mb-3" data-id="contact-linkedin-icon" data-path="src/pages/ContactPage.tsx" />
                 <h3 className="font-semibold text-gray-900 mb-2" data-id="contact-linkedin-title" data-path="src/pages/ContactPage.tsx">LinkedIn</h3>
                 <Button variant="link" className="p-0 text-blue-600" asChild data-id="contact-linkedin-button" data-path="src/pages/ContactPage.tsx">
-                  <a href="https://linkedin.com/in/gautam-dogra" target="_blank" rel="noopener noreferrer" data-id="contact-linkedin-link2" data-path="src/pages/ContactPage.tsx">
+                  <a href="https://www.linkedin.com/in/gautamdogra/" target="_blank" rel="noopener noreferrer" data-id="contact-linkedin-link2" data-path="src/pages/ContactPage.tsx">
                     linkedin.com/in/gautam‑dogra
                   </a>
                 </Button>
