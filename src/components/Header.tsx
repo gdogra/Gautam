@@ -19,20 +19,23 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex space-x-6" data-id="1trz7c2bd" data-path="src/components/Header.tsx">
-            <Button variant="ghost" onClick={() => scrollToSection('about')} data-id="uflgxky8n" data-path="src/components/Header.tsx">
-              About
+            <Button variant="ghost" asChild data-id="home-nav" data-path="src/components/Header.tsx">
+              <a href="/" data-id="home-link" data-path="src/components/Header.tsx">Home</a>
             </Button>
-            <Button variant="ghost" onClick={() => scrollToSection('work')} data-id="hut254xlq" data-path="src/components/Header.tsx">
-              Work
+            <Button variant="ghost" asChild data-id="about-nav" data-path="src/components/Header.tsx">
+              <a href="/about" data-id="about-link" data-path="src/components/Header.tsx">About</a>
+            </Button>
+            <Button variant="ghost" asChild data-id="work-nav" data-path="src/components/Header.tsx">
+              <a href="/work" data-id="work-link" data-path="src/components/Header.tsx">Work</a>
             </Button>
             <Button variant="ghost" asChild data-id="projects-nav" data-path="src/components/Header.tsx">
-              <a href="/apps" data-id="projects-link" data-path="src/components/Header.tsx">Projects</a>
+              <a href="/projects" data-id="projects-link" data-path="src/components/Header.tsx">Projects</a>
             </Button>
-            <Button variant="ghost" onClick={() => scrollToSection('skills')} data-id="npskfb9ko" data-path="src/components/Header.tsx">
-              Skills
+            <Button variant="ghost" asChild data-id="skills-nav" data-path="src/components/Header.tsx">
+              <a href="/skills" data-id="skills-link" data-path="src/components/Header.tsx">Skills</a>
             </Button>
-            <Button variant="ghost" onClick={() => scrollToSection('contact')} data-id="9ztoa1g2x" data-path="src/components/Header.tsx">
-              Contact
+            <Button variant="ghost" asChild data-id="contact-nav" data-path="src/components/Header.tsx">
+              <a href="/contact" data-id="contact-link" data-path="src/components/Header.tsx">Contact</a>
             </Button>
           </nav>
 

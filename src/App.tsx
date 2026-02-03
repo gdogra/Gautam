@@ -5,6 +5,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ComplianceTrackerPage from "./pages/ComplianceTrackerPage";
 import AppsPage from "./pages/AppsPage";
+import WorkPage from "./pages/WorkPage";
+import AboutPage from "./pages/AboutPage";
+import SkillsPage from "./pages/SkillsPage";
+import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -16,6 +20,11 @@ const App = () =>
       <BrowserRouter data-id="a7qgt4pqb" data-path="src/App.tsx">
         <Routes data-id="zxsxbmw0v" data-path="src/App.tsx">
           <Route path="/" element={<HomePage data-id="9ww8s9cvq" data-path="src/App.tsx" />} data-id="82wwy5q2p" data-path="src/App.tsx" />
+          <Route path="/about" element={<AboutPage data-id="about-route" data-path="src/App.tsx" />} data-id="about-route-data" data-path="src/App.tsx" />
+          <Route path="/work" element={<WorkPage data-id="work-route" data-path="src/App.tsx" />} data-id="work-route-data" data-path="src/App.tsx" />
+          <Route path="/projects" element={<AppsPage data-id="projects-route" data-path="src/App.tsx" />} data-id="projects-route-data" data-path="src/App.tsx" />
+          <Route path="/skills" element={<SkillsPage data-id="skills-route" data-path="src/App.tsx" />} data-id="skills-route-data" data-path="src/App.tsx" />
+          <Route path="/contact" element={<ContactPage data-id="contact-route" data-path="src/App.tsx" />} data-id="contact-route-data" data-path="src/App.tsx" />
           <Route path="/compliance-tracker" element={<ComplianceTrackerPage data-id="compliance-route" data-path="src/App.tsx" />} data-id="compliance-route-data" data-path="src/App.tsx" />
           <Route path="/apps" element={<AppsPage data-id="apps-route" data-path="src/App.tsx" />} data-id="apps-route-data" data-path="src/App.tsx" />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

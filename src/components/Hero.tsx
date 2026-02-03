@@ -31,13 +31,21 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12" data-id="8qv3hxelq" data-path="src/components/Hero.tsx">
-            <Button size="lg" onClick={scrollToWork} className="bg-blue-600 hover:bg-blue-700" data-id="4i1rmvpbx" data-path="src/components/Hero.tsx">
-              View My Work
-              <ArrowDown className="ml-2 h-4 w-4" data-id="ejvq2elr1" data-path="src/components/Hero.tsx" />
+          <div className="flex flex-wrap gap-4 justify-center items-center mb-12" data-id="8qv3hxelq" data-path="src/components/Hero.tsx">
+            <Button size="lg" asChild className="bg-blue-600 hover:bg-blue-700" data-id="nav-about-btn" data-path="src/components/Hero.tsx">
+              <a href="/about" data-id="nav-about-link" data-path="src/components/Hero.tsx">About Me</a>
             </Button>
-            <Button size="lg" variant="outline" asChild data-id="2pgwjflg7" data-path="src/components/Hero.tsx">
-              <a href="mailto:gdogra@gmail.com" data-id="51m9cfi5z" data-path="src/components/Hero.tsx">Get In Touch</a>
+            <Button size="lg" asChild className="bg-purple-600 hover:bg-purple-700" data-id="nav-work-btn" data-path="src/components/Hero.tsx">
+              <a href="/work" data-id="nav-work-link" data-path="src/components/Hero.tsx">My Work</a>
+            </Button>
+            <Button size="lg" asChild className="bg-indigo-600 hover:bg-indigo-700" data-id="nav-projects-btn" data-path="src/components/Hero.tsx">
+              <a href="/projects" data-id="nav-projects-link" data-path="src/components/Hero.tsx">Projects</a>
+            </Button>
+            <Button size="lg" asChild className="bg-green-600 hover:bg-green-700" data-id="nav-skills-btn" data-path="src/components/Hero.tsx">
+              <a href="/skills" data-id="nav-skills-link" data-path="src/components/Hero.tsx">Skills</a>
+            </Button>
+            <Button size="lg" variant="outline" asChild data-id="nav-contact-btn" data-path="src/components/Hero.tsx">
+              <a href="/contact" data-id="nav-contact-link" data-path="src/components/Hero.tsx">Contact</a>
             </Button>
           </div>
 
