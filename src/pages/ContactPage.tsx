@@ -32,7 +32,7 @@ const ContactPage = () => {
             Let's <span className="text-purple-600">Connect</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-id="contact-subtitle" data-path="src/pages/ContactPage.tsx">
-            Exploring opportunities in technical program management, AI development, and complex system integration
+            Exploring opportunities in Scrum Master, Product Owner, and AI development roles
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const ContactPage = () => {
             </CardHeader>
             <CardContent className="text-center" data-id="contact-card-content" data-path="src/pages/ContactPage.tsx">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed" data-id="contact-p" data-path="src/pages/ContactPage.tsx">
-                I'm open to opportunities in <strong data-id="contact-strong1" data-path="src/pages/ContactPage.tsx">technical program management</strong>, <strong data-id="contact-strong2" data-path="src/pages/ContactPage.tsx">AI development</strong>, or <strong data-id="contact-strong3" data-path="src/pages/ContactPage.tsx">complex system integration</strong> roles that leverage my expertise in regulated environments.
+                I'm open to opportunities in <strong data-id="contact-strong1" data-path="src/pages/ContactPage.tsx">Senior Scrum Master</strong>, <strong data-id="contact-strong2" data-path="src/pages/ContactPage.tsx">Product Owner</strong>, or <strong data-id="contact-strong3" data-path="src/pages/ContactPage.tsx">AI development</strong> roles that leverage my expertise in regulated environments.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center" data-id="contact-buttons" data-path="src/pages/ContactPage.tsx">
                 <Button size="lg" asChild className="bg-blue-600 hover:bg-blue-700" data-id="contact-email-btn" data-path="src/pages/ContactPage.tsx">
