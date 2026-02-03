@@ -128,7 +128,7 @@ const WorkPage = () => {
             </CardHeader>
             <CardContent data-id="exp-card-content-5" data-path="src/pages/WorkPage.tsx">
               <p className="text-gray-600 mb-4" data-id="exp-desc-5" data-path="src/pages/WorkPage.tsx">
-                Led PlayStation's global database platform supporting millions of concurrent users, reducing deployment cycles from days to hours through automation.
+                Led PlayStation's global database platform supporting millions of concurrent users, reducing deployment cycles from days to hours through automation. Reduced release outages to customers to next to zero.
               </p>
               <div className="flex flex-wrap gap-2" data-id="exp-tech-5" data-path="src/pages/WorkPage.tsx">
                 <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-5-1" data-path="src/pages/WorkPage.tsx">Backend Architecture</Badge>
