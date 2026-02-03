@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, Brain, Shield, ExternalLink } from "lucide-react";
+import { Calendar, Brain, Shield, Activity, Globe, Building, ExternalLink } from "lucide-react";
 
 const AppsPage = () => {
   const apps = [
