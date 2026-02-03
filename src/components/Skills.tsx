@@ -1,11 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Brain, Code, Wrench, Workflow, Shield, Database } from "lucide-react";
+import { Brain, Code, Wrench, Workflow, Shield, Database, Cog, FileText } from "lucide-react";
 
 const Skills = () => {
   const skills = [
   {
-    icon: <Workflow className="h-8 w-8 text-purple-600" data-id="fz95b5azd" data-path="src/components/Skills.tsx" />,
+    icon: <Cog className="h-8 w-8 text-purple-600" data-id="fz95b5azd" data-path="src/components/Skills.tsx" />,
     title: "Technical Program Management",
     description: "15+ years of leading complex software development programs from initiation through commercialization in highly regulated environments.",
     technologies: ["Technical Program Management", "SDLC", "Regulated Environment Leadership", "Change Control", "Design Controls", "Cross-Functional Team Coordination", "Software Roadmap Development", "Project Planning & Scheduling", "Risk Assessment & Mitigation"]

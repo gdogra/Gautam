@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, Brain, Shield, Activity, ExternalLink, Workflow, Database, Globe } from "lucide-react";
+import { Calendar, Brain, Shield, Activity, ExternalLink, Workflow, Database, Globe, Building } from "lucide-react";
 
 const AppsPage = () => {
   const apps = [
@@ -36,7 +36,7 @@ const AppsPage = () => {
     },
     {
       title: "EPA Salesforce Integration Platform",
-      icon: <Workflow className="h-8 w-8 text-green-600" />,
+      icon: <Building className="h-8 w-8 text-green-600" />,
       description: "Salesforce integration platform for EPA's Office of Chemical Safety and Pollution Prevention, delivering pollutants and pesticides regulatory systems under fixed political deadlines.",
       features: [
         "Agile Center of Excellence",
