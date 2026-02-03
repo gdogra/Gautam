@@ -25,8 +25,8 @@ const Header = () => {
             <Button variant="ghost" onClick={() => scrollToSection('work')} data-id="hut254xlq" data-path="src/components/Header.tsx">
               Work
             </Button>
-            <Button variant="ghost" asChild data-id="apps-nav" data-path="src/components/Header.tsx">
-              <a href="/apps" data-id="apps-link" data-path="src/components/Header.tsx">Apps</a>
+            <Button variant="ghost" asChild data-id="projects-nav" data-path="src/components/Header.tsx">
+              <a href="/apps" data-id="projects-link" data-path="src/components/Header.tsx">Projects</a>
             </Button>
             <Button variant="ghost" onClick={() => scrollToSection('skills')} data-id="npskfb9ko" data-path="src/components/Header.tsx">
               Skills
