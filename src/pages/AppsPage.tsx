@@ -32,7 +32,49 @@ const AppsPage = () => {
       ],
       technologies: ["AI/ML", "RAG", "Vector Search", "Python", "PostgreSQL", "NLP", "Biomedical APIs", "Cloud Deployment"],
       url: "https://oncosaferx.com",
-      github: "#"  // Placeholder since GitHub link isn't available yet
+      github: "https://github.com/gdogra/oncosaferx"  // Updated with actual GitHub link
+    },
+    {
+      title: "SiteBoss - Construction Management Platform",
+      icon: <Activity className="h-8 w-8 text-green-600" />,
+      description: "Comprehensive construction management application for project tracking, resource allocation, and progress monitoring.",
+      features: [
+        "Project Management",
+        "Resource Allocation",
+        "Progress Tracking",
+        "Team Collaboration"
+      ],
+      technologies: ["React", "JavaScript", "Netlify", "Construction Management", "Project Planning"],
+      url: "https://siteboss-construction-management.netlify.app/login",
+      github: "https://github.com/gdogra/siteboss-construction-management"
+    },
+    {
+      title: "Del Mar Golf Center",
+      icon: <Globe className="h-8 w-8 text-orange-600" />,
+      description: "Modern golf course management website providing booking, membership, and course information services.",
+      features: [
+        "Online Booking System",
+        "Membership Management",
+        "Course Information",
+        "Responsive Design"
+      ],
+      technologies: ["React", "JavaScript", "Netlify", "Golf Course Management", "Booking Systems"],
+      url: "https://delmargolfcenter.netlify.app/",
+      github: "https://github.com/gdogra/delmargolfcenter"
+    },
+    {
+      title: "Tennis League Management",
+      icon: <Building className="h-8 w-8 text-indigo-600" />,
+      description: "Tennis league administration platform for scheduling, player management, and tournament coordination.",
+      features: [
+        "League Scheduling",
+        "Player Management",
+        "Tournament Coordination",
+        "Match Results Tracking"
+      ],
+      technologies: ["React", "JavaScript", "Netlify", "Sports Management", "Tournament Systems"],
+      url: "https://tennisleague2.netlify.app/",
+      github: "https://github.com/gdogra/tennisleague"
     }
   ];
 
@@ -66,158 +108,78 @@ const AppsPage = () => {
             Featured <span className="text-purple-600">Projects</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8" data-id="projects-description" data-path="src/pages/AppsPage.tsx">
-            Two key projects that demonstrate technical excellence and innovation
+            Diverse portfolio of applications demonstrating technical excellence across domains
           </p>
         </div>
 
-        {/* Projects Grid - Only the 2 specific projects that link to apps */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-id="projects-grid" data-path="src/pages/AppsPage.tsx">
-          <Card className="hover:shadow-xl transition-shadow duration-300 h-full flex flex-col" data-id="project-card-1" data-path="src/pages/AppsPage.tsx">
-            <CardHeader data-id="project-header-1" data-path="src/pages/AppsPage.tsx">
-              <div className="flex items-center gap-3" data-id="project-header-content-1" data-path="src/pages/AppsPage.tsx">
-                <div className="p-2 bg-gray-100 rounded-lg" data-id="project-icon-bg-1" data-path="src/pages/AppsPage.tsx">
-                  <Calendar className="h-8 w-8 text-purple-600" data-id="project-icon-1" data-path="src/pages/AppsPage.tsx" />
+        {/* Projects Grid - All 5 projects */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-id="projects-grid" data-path="src/pages/AppsPage.tsx">
+          {apps.map((app, index) => (
+            <Card key={index} className="hover:shadow-xl transition-shadow duration-300 h-full flex flex-col cursor-pointer" data-id={`project-card-${index}`} data-path="src/pages/AppsPage.tsx">
+              <CardHeader data-id={`project-header-${index}`} data-path="src/pages/AppsPage.tsx">
+                <div className="flex items-center gap-3" data-id={`project-header-content-${index}`} data-path="src/pages/AppsPage.tsx">
+                  <div className="p-2 bg-gray-100 rounded-lg" data-id={`project-icon-bg-${index}`} data-path="src/pages/AppsPage.tsx">
+                    {app.icon}
+                  </div>
+                  <CardTitle className="text-xl" data-id={`project-title-${index}`} data-path="src/pages/AppsPage.tsx">
+                    {app.title}
+                  </CardTitle>
                 </div>
-                <CardTitle className="text-2xl" data-id="project-title-1" data-path="src/pages/AppsPage.tsx">
-                  AI-Powered Compliance Tracker
-                </CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent className="flex-grow" data-id="project-content-1" data-path="src/pages/AppsPage.tsx">
-              <p className="text-gray-600 mb-4" data-id="project-desc-1" data-path="src/pages/AppsPage.tsx">
-                Revolutionary platform transforming how accounting firms manage tax deadlines with predictive intelligence and automated compliance.
-              </p>
-              
-              <div className="mb-4" data-id="project-features-1" data-path="src/pages/AppsPage.tsx">
-                <h3 className="font-semibold text-gray-800 mb-2" data-id="features-title-1" data-path="src/pages/AppsPage.tsx">Key Features:</h3>
-                <ul className="space-y-1" data-id="features-list-1" data-path="src/pages/AppsPage.tsx">
-                  <li key="1" className="flex items-start gap-2 text-sm text-gray-600" data-id="feature-item-1-1" data-path="src/pages/AppsPage.tsx">
-                    <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id="feature-dot-1-1" data-path="src/pages/AppsPage.tsx"></span>
-                    <span data-id="feature-text-1-1" data-path="src/pages/AppsPage.tsx">Predictive Risk Scoring</span>
-                  </li>
-                  <li key="2" className="flex items-start gap-2 text-sm text-gray-600" data-id="feature-item-1-2" data-path="src/pages/AppsPage.tsx">
-                    <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id="feature-dot-1-2" data-path="src/pages/AppsPage.tsx"></span>
-                    <span data-id="feature-text-1-2" data-path="src/pages/AppsPage.tsx">Intelligent Document Processing</span>
-                  </li>
-                  <li key="3" className="flex items-start gap-2 text-sm text-gray-600" data-id="feature-item-1-3" data-path="src/pages/AppsPage.tsx">
-                    <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id="feature-dot-1-3" data-path="src/pages/AppsPage.tsx"></span>
-                    <span data-id="feature-text-1-3" data-path="src/pages/AppsPage.tsx">Smart Recommendations</span>
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="mb-4" data-id="project-tech-1" data-path="src/pages/AppsPage.tsx">
-                <h3 className="font-semibold text-gray-800 mb-2" data-id="tech-title-1" data-path="src/pages/AppsPage.tsx">Technologies:</h3>
-                <div className="flex flex-wrap gap-2" data-id="tech-tags-1" data-path="src/pages/AppsPage.tsx">
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-1-1" data-path="src/pages/AppsPage.tsx">
-                    Next.js
-                  </Badge>
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-1-2" data-path="src/pages/AppsPage.tsx">
-                    TypeScript
-                  </Badge>
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-1-3" data-path="src/pages/AppsPage.tsx">
-                    AI/ML
-                  </Badge>
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-1-4" data-path="src/pages/AppsPage.tsx">
-                    Supabase
-                  </Badge>
+              </CardHeader>
+              <CardContent className="flex-grow" data-id={`project-content-${index}`} data-path="src/pages/AppsPage.tsx">
+                <p className="text-gray-600 mb-4" data-id={`project-desc-${index}`} data-path="src/pages/AppsPage.tsx">
+                  {app.description}
+                </p>
+                
+                <div className="mb-4" data-id={`project-features-${index}`} data-path="src/pages/AppsPage.tsx">
+                  <h3 className="font-semibold text-gray-800 mb-2" data-id={`features-title-${index}`} data-path="src/pages/AppsPage.tsx">Key Features:</h3>
+                  <ul className="space-y-1" data-id={`features-list-${index}`} data-path="src/pages/AppsPage.tsx">
+                    {app.features.slice(0, 3).map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-start gap-2 text-sm text-gray-600" data-id={`feature-item-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx">
+                        <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id={`feature-dot-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx"></span>
+                        <span data-id={`feature-text-${index}-${featureIndex}`} data-path="src/pages/AppsPage.tsx">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </div>
-              
-              <div className="flex gap-2" data-id="project-actions-1" data-path="src/pages/AppsPage.tsx">
-                <a href="https://compliance-deadline-tracker.netlify.app" target="_blank" rel="noopener noreferrer" data-id="project-url-1" data-path="src/pages/AppsPage.tsx">
-                  <Button variant="outline" size="sm" data-id="project-demo-btn-1" data-path="src/pages/AppsPage.tsx">
-                    Launch App
-                    <ExternalLink className="ml-2 h-4 w-4" data-id="demo-icon-1" data-path="src/pages/AppsPage.tsx" />
-                  </Button>
-                </a>
-                <a href="https://github.com/gdogra/compliance-deadline-tracker" target="_blank" rel="noopener noreferrer" data-id="project-github-1" data-path="src/pages/AppsPage.tsx">
-                  <Button size="sm" data-id="project-github-btn-1" data-path="src/pages/AppsPage.tsx">
-                    GitHub
-                  </Button>
-                </a>
-              </div>
-            </CardContent>
-          </Card>
-          
-          <Card className="hover:shadow-xl transition-shadow duration-300 h-full flex flex-col" data-id="project-card-2" data-path="src/pages/AppsPage.tsx">
-            <CardHeader data-id="project-header-2" data-path="src/pages/AppsPage.tsx">
-              <div className="flex items-center gap-3" data-id="project-header-content-2" data-path="src/pages/AppsPage.tsx">
-                <div className="p-2 bg-gray-100 rounded-lg" data-id="project-icon-bg-2" data-path="src/pages/AppsPage.tsx">
-                  <Brain className="h-8 w-8 text-blue-600" data-id="project-icon-2" data-path="src/pages/AppsPage.tsx" />
+                
+                <div className="mb-4" data-id={`project-tech-${index}`} data-path="src/pages/AppsPage.tsx">
+                  <h3 className="font-semibold text-gray-800 mb-2" data-id={`tech-title-${index}`} data-path="src/pages/AppsPage.tsx">Technologies:</h3>
+                  <div className="flex flex-wrap gap-2" data-id={`tech-tags-${index}`} data-path="src/pages/AppsPage.tsx">
+                    {app.technologies.slice(0, 4).map((tech, techIndex) => (
+                      <Badge key={techIndex} variant="outline" className="text-xs" data-id={`tech-badge-${index}-${techIndex}`} data-path="src/pages/AppsPage.tsx">
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
                 </div>
-                <CardTitle className="text-2xl" data-id="project-title-2" data-path="src/pages/AppsPage.tsx">
-                  OncoSafeRx - AI-Enabled Drug Safety Platform
-                </CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent className="flex-grow" data-id="project-content-2" data-path="src/pages/AppsPage.tsx">
-              <p className="text-gray-600 mb-4" data-id="project-desc-2" data-path="src/pages/AppsPage.tsx">
-                End-to-end AI-assisted clinical decision tool leveraging RAG, vector search, and automated medical data enrichment for oncology research and precision medicine.
-              </p>
-              
-              <div className="mb-4" data-id="project-features-2" data-path="src/pages/AppsPage.tsx">
-                <h3 className="font-semibold text-gray-800 mb-2" data-id="features-title-2" data-path="src/pages/AppsPage.tsx">Key Features:</h3>
-                <ul className="space-y-1" data-id="features-list-2" data-path="src/pages/AppsPage.tsx">
-                  <li key="1" className="flex items-start gap-2 text-sm text-gray-600" data-id="feature-item-2-1" data-path="src/pages/AppsPage.tsx">
-                    <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id="feature-dot-2-1" data-path="src/pages/AppsPage.tsx"></span>
-                    <span data-id="feature-text-2-1" data-path="src/pages/AppsPage.tsx">RAG Implementation</span>
-                  </li>
-                  <li key="2" className="flex items-start gap-2 text-sm text-gray-600" data-id="feature-item-2-2" data-path="src/pages/AppsPage.tsx">
-                    <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id="feature-dot-2-2" data-path="src/pages/AppsPage.tsx"></span>
-                    <span data-id="feature-text-2-2" data-path="src/pages/AppsPage.tsx">Vector Search</span>
-                  </li>
-                  <li key="3" className="flex items-start gap-2 text-sm text-gray-600" data-id="feature-item-2-3" data-path="src/pages/AppsPage.tsx">
-                    <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0" data-id="feature-dot-2-3" data-path="src/pages/AppsPage.tsx"></span>
-                    <span data-id="feature-text-2-3" data-path="src/pages/AppsPage.tsx">Automated Data Enrichment</span>
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="mb-4" data-id="project-tech-2" data-path="src/pages/AppsPage.tsx">
-                <h3 className="font-semibold text-gray-800 mb-2" data-id="tech-title-2" data-path="src/pages/AppsPage.tsx">Technologies:</h3>
-                <div className="flex flex-wrap gap-2" data-id="tech-tags-2" data-path="src/pages/AppsPage.tsx">
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-2-1" data-path="src/pages/AppsPage.tsx">
-                    AI/ML
-                  </Badge>
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-2-2" data-path="src/pages/AppsPage.tsx">
-                    RAG
-                  </Badge>
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-2-3" data-path="src/pages/AppsPage.tsx">
-                    Vector Search
-                  </Badge>
-                  <Badge variant="outline" className="text-xs" data-id="tech-badge-2-4" data-path="src/pages/AppsPage.tsx">
-                    Python
-                  </Badge>
+                
+                <div className="flex gap-2" data-id={`project-actions-${index}`} data-path="src/pages/AppsPage.tsx">
+                  <a href={app.url} target="_blank" rel="noopener noreferrer" data-id={`project-url-${index}`} data-path="src/pages/AppsPage.tsx">
+                    <Button variant="outline" size="sm" disabled={app.url === "#"} data-id={`project-demo-btn-${index}`} data-path="src/pages/AppsPage.tsx">
+                      Launch App
+                      <ExternalLink className="ml-2 h-4 w-4" data-id={`demo-icon-${index}`} data-path="src/pages/AppsPage.tsx" />
+                    </Button>
+                  </a>
+                  <a href={app.github} target="_blank" rel="noopener noreferrer" data-id={`project-github-${index}`} data-path="src/pages/AppsPage.tsx">
+                    <Button size="sm" disabled={app.github === "#"} data-id={`project-github-btn-${index}`} data-path="src/pages/AppsPage.tsx">
+                      GitHub
+                    </Button>
+                  </a>
                 </div>
-              </div>
-              
-              <div className="flex gap-2" data-id="project-actions-2" data-path="src/pages/AppsPage.tsx">
-                <a href="https://oncosaferx.com" target="_blank" rel="noopener noreferrer" data-id="project-url-2" data-path="src/pages/AppsPage.tsx">
-                  <Button variant="outline" size="sm" data-id="project-demo-btn-2" data-path="src/pages/AppsPage.tsx">
-                    Launch App
-                    <ExternalLink className="ml-2 h-4 w-4" data-id="demo-icon-2" data-path="src/pages/AppsPage.tsx" />
-                  </Button>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" data-id="project-github-2" data-path="src/pages/AppsPage.tsx">
-                  <Button size="sm" disabled data-id="project-github-btn-2" data-path="src/pages/AppsPage.tsx">
-                    GitHub
-                  </Button>
-                </a>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          ))}
         </div>
 
         {/* Additional Info */}
         <div className="mt-16 text-center" data-id="apps-footer" data-path="src/pages/AppsPage.tsx">
           <h2 className="text-2xl font-bold text-gray-900 mb-4" data-id="apps-footer-title" data-path="src/pages/AppsPage.tsx">
-            Proven Track Record
+            Diverse Technical Portfolio
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto" data-id="apps-footer-desc" data-path="src/pages/AppsPage.tsx">
-            Each project demonstrates measurable impact: 40% improvement at EPA, 30% at Army, 20% at Navy, 
-            and zero-downtime releases at Sony PlayStation. My expertise spans technical program management, 
-            AI development, and complex system integration across regulated environments.
+            From AI-powered compliance tracking to construction management, golf center websites to tennis leagues, 
+            each project showcases adaptability and technical depth across various domains and industries.
           </p>
         </div>
       </div>
