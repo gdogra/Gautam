@@ -17,7 +17,7 @@ const AppsPage = () => {
         "Conversational Assistant"
       ],
       technologies: ["Next.js", "TypeScript", "AI/ML", "Supabase", "OCR", "NLP", "React", "Tailwind CSS", "Node.js"],
-      url: "https://compliance-deadline-tracker.vercel.app",
+      url: "https://compliance-deadline-tracker.netlify.app",
       github: "https://github.com/gdogra/compliance-deadline-tracker"
     },
     {
@@ -31,7 +31,7 @@ const AppsPage = () => {
         "Clinical Decision Support"
       ],
       technologies: ["AI/ML", "RAG", "Vector Search", "Python", "PostgreSQL", "NLP", "Biomedical APIs", "Cloud Deployment"],
-      url: "https://oncosafedxplorer.com",
+      url: "https://oncosaferx.com",
       github: "#"
     },
     {

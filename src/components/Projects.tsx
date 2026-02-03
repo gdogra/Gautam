@@ -8,7 +8,7 @@ const Projects = () => {
   {
     title: "AI-Powered Compliance Tracker",
     year: "2026",
-    url: "compliance-deadline-tracker.vercel.app",
+    url: "compliance-deadline-tracker.netlify.app",
     icon: <Brain className="h-6 w-6 text-purple-600" data-id="o13n2tf4t" data-path="src/components/Projects.tsx" />,
     description: "Revolutionary platform transforming how accounting firms manage tax deadlines with predictive intelligence and automated compliance.",
     features: [
@@ -23,7 +23,7 @@ const Projects = () => {
   {
     title: "OncoSafeRx - AI-Enabled Drug Safety Platform",
     year: "2023-Present",
-    url: "oncosafedxplorer.com",
+    url: "oncosaferx.com",
     icon: <Brain className="h-6 w-6 text-red-600" data-id="o13n2tf4t" data-path="src/components/Projects.tsx" />,
     description: "End-to-end AI-assisted clinical decision tool leveraging RAG, vector search, and automated medical data enrichment for oncology research and precision medicine.",
     features: [
