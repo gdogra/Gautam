@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "public", // Build to public directory for Netlify
-    emptyOutDir: true // Clear the directory before building
+    emptyOutDir: false // Preserve static assets like images during build
   },
   plugins: [
   react()],
