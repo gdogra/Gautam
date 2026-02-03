@@ -187,13 +187,14 @@ const WorkPage = () => {
             </CardHeader>
             <CardContent data-id="exp-card-content-8" data-path="src/pages/WorkPage.tsx">
               <p className="text-gray-600 mb-4" data-id="exp-desc-8" data-path="src/pages/WorkPage.tsx">
-                Three-time top billable consultant for Naval Warfare (Navwar) projects, advising developers on CA's CASE-tool implementations and government solution architectures.
+                Three-time top billable consultant for Naval Warfare (Navwar) projects, initially advising developers on TI's CASE-tool implementations following CA's acquisition of TI's software division. Later supported all CA product implementations used by the Navy.
               </p>
               <div className="flex flex-wrap gap-2" data-id="exp-tech-8" data-path="src/pages/WorkPage.tsx">
                 <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-1" data-path="src/pages/WorkPage.tsx">Consulting</Badge>
-                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-2" data-path="src/pages/WorkPage.tsx">CASE-tools</Badge>
-                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-3" data-path="src/pages/WorkPage.tsx">Government Solutions</Badge>
-                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-4" data-path="src/pages/WorkPage.tsx">Naval Warfare</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-2" data-path="src/pages/WorkPage.tsx">TI CASE-tools</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-3" data-path="src/pages/WorkPage.tsx">CA Products</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-4" data-path="src/pages/WorkPage.tsx">Government Solutions</Badge>
+                <Badge variant="outline" className="text-xs" data-id="exp-tech-badge-8-5" data-path="src/pages/WorkPage.tsx">Naval Warfare</Badge>
               </div>
             </CardContent>
           </Card>
