@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, Brain, Shield, Activity, ExternalLink, Workflow, Database, Globe } from "lucide-react";
+import { Calendar, Brain, Shield, Sparkles, ExternalLink } from "lucide-react";
 
 const AppsPage = () => {
   const apps = [
@@ -11,13 +11,13 @@ const AppsPage = () => {
       description: "Revolutionary platform transforming how accounting firms manage tax deadlines with predictive intelligence and automated compliance.",
       features: [
         "Predictive Risk Scoring",
-        "Intelligent Document Processing", 
+        "Intelligent Document Processing",
         "Smart Recommendations",
         "Anomaly Detection",
         "Conversational Assistant"
       ],
       technologies: ["Next.js", "TypeScript", "AI/ML", "Supabase", "OCR", "NLP", "React", "Tailwind CSS", "Node.js"],
-      url: "https://compliance-deadline-tracker.vercel.app",
+      url: "https://compliancetracker.netlify.app",
       github: "https://github.com/gdogra/compliance-deadline-tracker"
     },
     {
@@ -31,62 +31,34 @@ const AppsPage = () => {
         "Clinical Decision Support"
       ],
       technologies: ["AI/ML", "RAG", "Vector Search", "Python", "PostgreSQL", "NLP", "Biomedical APIs", "Cloud Deployment"],
-      url: "https://oncosafedxplorer.com",
+      url: "https://oncosaferx.com",
       github: "#"
     },
     {
-      title: "EPA Salesforce Integration Platform",
-      icon: <Workflow className="h-8 w-8 text-green-600" />,
-      description: "Salesforce integration platform for EPA's Office of Chemical Safety and Pollution Prevention, delivering pollutants and pesticides regulatory systems under fixed political deadlines.",
+      title: "SiteBoss - AI Website Optimization",
+      icon: <Sparkles className="h-8 w-8 text-green-600" />,
+      description: "AI-powered website optimization platform for conversion rate improvement, helping businesses maximize their online presence.",
       features: [
-        "Agile Center of Excellence",
-        "Proof-of-Concept Delivery",
-        "Delivery Predictability Improvements",
-        "Multi-team Coordination"
+        "AI-Powered Analysis",
+        "Conversion Rate Optimization",
+        "Performance Insights",
+        "Automated Recommendations"
       ],
-      technologies: ["Salesforce", "Integration Platforms", "Agile Methodologies", "Jira", "Confluence", "Cloud Platforms", "API Integration"],
+      technologies: ["AI/ML", "React", "Node.js", "Analytics", "Cloud Deployment"],
       url: "#",
       github: "#"
     },
     {
-      title: "Dexcom Medical Device Platform",
-      icon: <Database className="h-8 w-8 text-orange-600" />,
-      description: "Medical device software platform for continuous glucose monitoring in FDA-regulated environment, including database validation and compliance with ISO 13485/14971.",
+      title: "CalmIntake - Mental Health Platform",
+      icon: <Brain className="h-8 w-8 text-teal-600" />,
+      description: "Mental health platform with AI-powered screening and care recommendations, helping connect individuals with appropriate mental health resources.",
       features: [
-        "Regulatory Compliance (FDA/ISO)",
-        "Database Validation",
-        "Cross-functional Team Coordination",
-        "Full SDLC Management"
+        "AI-Powered Screening",
+        "Care Recommendations",
+        "Resource Matching",
+        "Privacy-First Design"
       ],
-      technologies: ["FDA 21 CFR Part 11", "ISO 13485/14971", "Backend Architecture", "Cloud Services", "Mobile Integration", "Database Systems"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "PlayStation Global Platform Services",
-      icon: <Globe className="h-8 w-8 text-indigo-600" />,
-      description: "Global database platform supporting millions of concurrent PlayStation users with strict uptime requirements, reducing deployment cycles from days to hours.",
-      features: [
-        "Zero-Downtime Releases",
-        "High Availability Architecture",
-        "Performance Optimization",
-        "DevOps & CI/CD Pipelines"
-      ],
-      technologies: ["Backend Architecture", "Cloud Services", "Distributed Databases", "Microservices", "DevOps", "CI/CD", "Jenkins", "Git/GitHub"],
-      url: "#",
-      github: "#"
-    },
-    {
-      title: "U.S. Army Identity Management Platform",
-      icon: <Activity className="h-8 w-8 text-red-600" />,
-      description: "Identity management platform architecture and integration solutions for U.S. Army within SAFe framework, reducing requirement churn by 30%.",
-      features: [
-        "SAFe Framework Implementation",
-        "Requirements Management",
-        "Security & Cybersecurity Integration",
-        "Cross-functional Collaboration"
-      ],
-      technologies: ["SAFe", "Cybersecurity", "Identity Management", "Platform Architecture", "Integration Solutions", "Agile Methodologies"],
+      technologies: ["AI/ML", "React", "Node.js", "Healthcare APIs", "Cloud Deployment"],
       url: "#",
       github: "#"
     }
@@ -98,11 +70,10 @@ const AppsPage = () => {
         {/* Hero Section */}
         <div className="text-center mb-16" data-id="apps-hero" data-path="src/pages/AppsPage.tsx">
           <h1 className="text-5xl font-bold text-gray-900 mb-6" data-id="apps-title" data-path="src/pages/AppsPage.tsx">
-            Professional <span className="text-purple-600">Projects</span>
+            My <span className="text-purple-600">Apps</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8" data-id="apps-description" data-path="src/pages/AppsPage.tsx">
-            A comprehensive collection of professional projects spanning 15+ years across regulated environments, 
-            demonstrating expertise in technical program management, AI development, and complex system integration.
+            A collection of applications I've built, leveraging AI/ML, modern web technologies, and cloud platforms to solve real-world problems.
           </p>
         </div>
 
@@ -169,12 +140,11 @@ const AppsPage = () => {
         {/* Additional Info */}
         <div className="mt-16 text-center" data-id="apps-footer" data-path="src/pages/AppsPage.tsx">
           <h2 className="text-2xl font-bold text-gray-900 mb-4" data-id="apps-footer-title" data-path="src/pages/AppsPage.tsx">
-            Proven Track Record
+            Built with Modern Technologies
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto" data-id="apps-footer-desc" data-path="src/pages/AppsPage.tsx">
-            Each project demonstrates measurable impact: 40% improvement at EPA, 30% at Army, 20% at Navy, 
-            and zero-downtime releases at Sony PlayStation. My expertise spans technical program management, 
-            AI development, and complex system integration across regulated environments.
+            These applications demonstrate my passion for building tools that empower users with intelligent workflows.
+            Each project combines AI/ML capabilities with modern web technologies to deliver practical solutions.
           </p>
         </div>
       </div>
