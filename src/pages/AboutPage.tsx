@@ -26,6 +26,20 @@ const AboutPage = () => {
         </header>
 
         <div className="text-center mb-16" data-id="about-header-section" data-path="src/pages/AboutPage.tsx">
+          <div className="flex justify-center mb-6" data-id="about-photo-container" data-path="src/pages/AboutPage.tsx">
+            <img 
+              src="https://media.licdn.com/dms/image/v2/D4D03AQHJ4mXzG6W84A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677788131903?e=1744041600&v=beta&t=Q5tt8eQwBI484Y_dH232AVoDGqRc8rJax9XOJU5ay70" 
+              alt="Gautam Dogra" 
+              className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.onerror = null;
+                target.src = "https://via.placeholder.com/400x400/6366f1/ffffff?text=GD";
+              }}
+              data-id="about-photo" 
+              data-path="src/pages/AboutPage.tsx" 
+            />
+          </div>
           <h1 className="text-5xl font-bold text-gray-900 mb-6" data-id="about-title" data-path="src/pages/AboutPage.tsx">
             About <span className="text-purple-600">Me</span>
           </h1>
