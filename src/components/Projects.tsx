@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Brain, Calendar, Target } from "lucide-react";
+import { ExternalLink, Brain, Target } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -37,7 +37,7 @@ const Projects = () => {
     title: "EPA Salesforce Integration Platform",
     year: "2024-2025",
     url: "datawiz.com",
-    icon: <Workflow className="h-6 w-6 text-blue-600" data-id="3egmzndj2" data-path="src/components/Projects.tsx" />,
+    icon: <Target className="h-6 w-6 text-blue-600" data-id="3egmzndj2" data-path="src/components/Projects.tsx" />,
     description: "Salesforce integration platform for EPA's Office of Chemical Safety and Pollution Prevention, delivering pollutants and pesticides regulatory systems under fixed political deadlines.",
     features: [
     "Agile Center of Excellence: Established framework serving 200+ professionals with standardized delivery governance.",
