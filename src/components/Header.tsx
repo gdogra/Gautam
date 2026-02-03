@@ -55,6 +55,11 @@ const Header = () => {
                 <Github className="h-4 w-4" data-id="ed7ugn7x1" data-path="src/components/Header.tsx" />
               </a>
             </Button>
+            <Button variant="ghost" size="sm" asChild data-id="logout-btn" data-path="src/components/Header.tsx">
+              <a href="/login" data-id="logout-link" data-path="src/components/Header.tsx">
+                <span className="text-red-600">Logout</span>
+              </a>
+            </Button>
           </div>
         </div>
       </div>
