@@ -1,75 +1,84 @@
+# Gautam Dogra
 
+AI Builder | Product Operator | Systems Thinker  
+San Diego, CA • gdogra@gmail.com • 858-699-7030  
 
-A clean, modern React template with TypeScript, Vite, TailwindCSS, and ShadCN UI components. This template provides a solid foundation for building web applications with best practices in mind.
+[LinkedIn](https://linkedin.com/in/gautamdogra) • [Portfolio](https://gautamdogra.com)
 
-### Prerequisites
+---
 
-- Node.js 18+ 
-- npm or yarn or pnpm
+## 🧠 What I do
 
-### Installation
+I build real-world systems that combine AI, data, and product thinking.
 
-1. Clone this repository:
-```bash
-git clone https://github.com/your-username/react-template-project.git
-cd react-template-project
+- LLM-powered workflows
+- Agent-based systems
+- Cloud-native platforms
+- Regulated environments (healthcare + defense)
+
+---
+
+## 🚀 Projects
+
+### 🧬 OncoSafeRx
+```python
+def oncosaferx():
+    return "LLM-driven oncology decision support with traceability + clinical workflows"
 ```
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn
-# or
-pnpm install
+### 📈 RefractTrade
+```python
+def refract_trade():
+    return "AI-powered options intelligence (signals + sentiment + narrative detection)"
 ```
 
-3. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### 🏗️ SiteBoss
+```python
+def siteboss():
+    return "AI-assisted construction ops platform simplifying workflows for contractors"
 ```
 
-4. Open your browser and visit `http://localhost:5173`
+### ⚡ Currently experimenting with
+- Multi-agent orchestration patterns
+- Prompt pipelines for structured reasoning
+- AI-assisted coding loops (Claude + Copilot + Codex)
+- Real-time + low-cost AI systems
 
-## Project Structure
+---
 
-```
-react-template-project/
-├── public/              # Static assets
-│   ├── components/      # Reusable components
-│   │   └── ui/          # UI components from ShadCN
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions and libraries
-│   ├── pages/           # Page components
-│   ├── App.tsx          # Main application component
-│   ├── index.css        # Global styles
-│   └── main.tsx         # Application entry point
-├── .gitignore
-├── package.json         # Project dependencies and scripts
-├── tailwind.config.ts   # TailwindCSS configuration
-├── tsconfig.json        # TypeScript configuration
-└── vite.config.ts       # Vite configuration
-```
+## 🧰 Stack
 
-## Customization
+**LLMs:** Claude, Codex, Copilot  
+**Cloud:** AWS  
+**Dev:** APIs, full-stack apps  
+**Agile:** Scrum, SAFe, DevOps
 
-- **Styling**: Modify `tailwind.config.ts` to customize your design tokens
-- **Components**: Add or modify components in the `src/components` directory
-- **Pages**: Create new pages in the `src/pages` directory
-- **Routing**: Update routes in `src/App.tsx`
+---
 
-## Building for Production
+## 🏗️ Background
 
-```bash
-npm run build
-# or
-yarn build
-# or
-pnpm build
-```
+**LMI:**
+- role: Product Owner
+- domain: US Army systems
 
-The built files will be in the `dist` directory, ready to be deployed.
+**Peraton / Perspecta:**
+- role: Product Owner / Scrum Master
+- domain: Navy programs
+
+**Dexcom:**
+- role: Staff Systems Engineer
+- domain: medical devices
+
+**Sony:**
+- role: Lead Database DevOps
+
+**Earlier:**
+- companies: [Yahoo, Active Network, TI/CA]
+
+---
+
+## 🎯 What I'm looking for
+
+- Build at the frontier of AI + real-world applications
+- Work with strong builders + open ecosystems
+- Ship fast, learn fast, iterate
